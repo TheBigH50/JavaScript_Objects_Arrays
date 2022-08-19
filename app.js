@@ -6,7 +6,6 @@ console.log("EXERCISE 1:\n==========\n");
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 
-
 //Exe1
 /*
 const numbers = [2, 22, 12, 17, 18, 39, 129];
@@ -27,19 +26,32 @@ arraySum()
 
 const numbers = [2, 22, 12, 17, 18, 39, 129];
 
-function arraySum (arr) {
-    let sum = 0;
+function arraySum(arr) {
+  let sum = 0;
 
-    arr.forEach((num) => {
-        sum += num; 
-        
-        //for (let index = 0; index < arr.length; index++) {
-            //sum += arr[index];
-    });
-    
-    console.log(sum);
-    
+  arr.forEach((num) => {
+    sum += num;
+
+    //for (let index = 0; index < arr.length; index++) {
+    //sum += arr[index];
+  });
+
+  console.log(sum);
+}
+
+arraySum(numbers);
+
+//Exe2
+
+let book = {
+  title: "Lord Brocktree",
+  pageCount: 370,
+  readCount: 5,
+};
+book.run = function () {
+  console.log(
+    `The book ${this.title} contains ${this.pageCount} pages, I have read ${this.title} ${this.readCount} times.`
+  );
 };
 
-arraySum(numbers)
-
+book.run();
