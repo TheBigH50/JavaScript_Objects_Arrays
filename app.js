@@ -66,8 +66,8 @@ console.log (foxArr)
 
 foxArr.rev = function () {
     let i = 0
-    .forEach (() => {
-foxArr.valueOf.reverse(wrdz);
+    foxArr.forEach (() => {
+foxArr.reverse(wrdz);
     });
     console.log(foxArr);
 };
