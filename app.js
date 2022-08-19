@@ -65,7 +65,11 @@ let foxArr = sentence.split(" ")
 console.log (foxArr)
 
 foxArr.rev = function () {
-    while (let i = 0; i < foxArr.length; 1++) {
-
-    };
+    let i = 0
+    .forEach (() => {
+foxArr.valueOf.reverse(wrdz);
+    });
+    console.log(foxArr);
 };
+
+foxArr.rev()
