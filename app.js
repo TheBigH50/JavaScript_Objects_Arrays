@@ -55,3 +55,17 @@ book.run = function () {
 };
 
 book.run();
+
+//Exe3
+
+let sentence = "The quick brown fox jumps over the lazy dog";
+
+let foxArr = sentence.split(" ")
+
+console.log (foxArr)
+
+foxArr.rev = function () {
+    while (let i = 0; i < foxArr.length; 1++) {
+
+    };
+};
