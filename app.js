@@ -60,16 +60,34 @@ book.run();
 
 let sentence = "The quick brown fox jumps over the lazy dog";
 
-let foxArr = sentence.split(" ")
+// function to reverse a string
+function reverseStr(str) {
 
-console.log (foxArr)
+  let reversedStr = "";
 
-foxArr.rev = function () {
-    let i = 0
-    foxArr.forEach (() => {
-foxArr.reverse(wrdz);
-    });
-    console.log(foxArr);
-};
+  for (let i = 0; i < str.length; i++) {
+    reversedStr = str[i] + reversedStr;
+  }
 
-foxArr.rev()
+  return reversedStr;
+}
+
+// split a sentence into words
+// reverse each word in a sentence
+
+function reverseWordsFromScentence(sentence) {
+  let result = "";
+
+  let words = sentence.split(" ");
+
+  let reversedWords = words.map(function (word) {
+return reverseStr(word);
+  });
+  
+  return reversedWords.join(" ");
+}
+
+console.log(reverseWordsFromScentence(sentence));
+
+
+// combine reversed words into a sentence again
