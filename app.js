@@ -76,7 +76,6 @@ function reverseStr(str) {
 // reverse each word in a sentence
 
 function reverseWordsFromScentence(sentence) {
-  let result = "";
 
   let words = sentence.split(" ");
 
@@ -89,5 +88,4 @@ return reverseStr(word);
 
 console.log(reverseWordsFromScentence(sentence));
 
-
-// combine reversed words into a sentence again
+//Exe4
