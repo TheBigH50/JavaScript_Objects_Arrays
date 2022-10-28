@@ -89,3 +89,7 @@ return reverseStr(word);
 console.log(reverseWordsFromScentence(sentence));
 
 //Exe4
+let csvData = "name,age\nFrodo,50\nSam,38\nMerry,36\nPippin,26";
+
+let dataSplit = csvData.split("\n");
+
